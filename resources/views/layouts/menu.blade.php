@@ -87,6 +87,19 @@
 
 
                             <li>
+                                <a href="{{ route('myanmar.index') }}">
+                                    @if (session('key') == 'jp')
+                                        ミャンマーとは？
+                                    @elseif (session('key') == 'mm')
+                                        ミャンマーとは？
+                                    @else
+                                        What is Myanmar?
+                                    @endif
+                                </a>
+                            </li>
+
+
+                            <li>
                                 <a href="{{ route('recruitment_flow.index') }}">
                                     @if (session('key') == 'jp')
                                         求人の流れ
@@ -126,20 +139,6 @@
                             </li>
 
                         </ul>
-                    </div>
-                </div>
-                <div class="main-menu-two__right">
-                    <div class="main-menu-two__search-box">
-                        <form action="#" class="main-menu-two__search-form">
-                            <input type="search" placeholder="Search....">
-                            <button type="submit"><i class="icon-search"></i></button>
-                        </form>
-                    </div>
-                    <div class="main-menu-two__cart">
-                        <a href="products.html"><span class="icon-cart"></span></a>
-                    </div>
-                    <div class="main-menu-two__btn-box">
-                        <a href="contact.html" class="main-menu-two__btn thm-btn">GET A QUOTE</a>
                     </div>
                 </div>
             </div>
