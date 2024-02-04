@@ -5,7 +5,7 @@
             <ul class="list-unstyled main-header-two__contact-list">
                 <li>
                     <div class="icon">
-                        <i class="fa fa-phone-alt"></i>
+                        <i class="fa fa-phone"></i>
                     </div>
                     <div class="text">
                         <p>
@@ -69,7 +69,9 @@
                     </div>
 
                     <div class="main-menu-two__main-menu-box">
-                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                        <a href="#" class="mobile-nav__toggler">
+                            <i class="fa fa-bars"></i>
+                        </a>
                         <ul class="main-menu__list">
 
                             <li>
@@ -83,6 +85,51 @@
                                     @endif
                                     <span class="main-menu-border"></span>
                                 </a>
+                            </li>
+
+
+                            <li>
+                                <a href="{{ route('about.index') }}">
+                                    @if (session('key') == 'jp')
+                                        会社概要
+                                    @elseif (session('key') == 'mm')
+                                        ကုမ္ပဏီအကြောင်း
+                                    @else
+                                        About Us
+                                    @endif
+                                </a>
+                                <span class="main-menu-border"></span>
+                            </li>
+
+
+                            <li class="dropdown">
+                                <a href="#">
+                                    @if (session('key') == 'jp')
+                                        パートナー
+                                    @elseif (session('key') == 'mm')
+                                        Partners
+                                    @else
+                                        Partners
+                                    @endif
+                                </a>
+                                <ul style="min-width: 360px;">
+                                    <li>
+                                        <a href="https://goodspeed-group.co.jp/" target="_blank">
+                                            <img src="{{ asset('data/gs_logo.png') }}" alt=""
+                                                style="width: 60px; height: 40px; background-size: center; object-fit: contain;">
+                                            Good Speed Group
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://gsjmbridge-mm.com/" target="_blank">
+                                            <img src="{{ asset('data/gsjm.jpg') }}" alt=""
+                                                style="width: 70px; height: 40px; background-size: center; object-fit: cover;">
+                                            GSJM自動車整備研修センター
+                                        </a>
+                                    </li>
+                                </ul>
+                                <span class="main-menu-border"></span>
                             </li>
 
 
@@ -120,6 +167,19 @@
                                         ဓာတ်ပုံများ
                                     @else
                                         Gallery
+                                    @endif
+                                    <span class="main-menu-border"></span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('news.index') }}">
+                                    @if (session('key') == 'jp')
+                                        ニュース
+                                    @elseif (session('key') == 'mm')
+                                        သတင်း
+                                    @else
+                                        News
                                     @endif
                                     <span class="main-menu-border"></span>
                                 </a>

@@ -9,13 +9,16 @@
     </title>
     <meta name="google" content="notranslate">
 
+
     <link rel="preconnect" href="../../../fonts.googleapis.com/index.html">
     <link rel="preconnect" href="../../../fonts.gstatic.com/index.html" crossorigin>
+
     <link
-        href="../../../fonts.googleapis.com/css29634.css?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&amp;display=swap"
+        href="{{ asset('assets/fonts.googleapis.com/css29634.css?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&amp;display=swap') }}"
         rel="stylesheet">
 
-    <link href="../../../fonts.googleapis.com/css24477.css?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+    <link
+        href="{{ asset('assets/fonts.googleapis.com/css24477.css?family=Syne:wght@400;500;600;700;800&amp;display=swap') }}"
         rel="stylesheet">
 
 

@@ -220,4 +220,32 @@
 
 
     @include('components.mm_group')
+
+    <section class="faq-page">
+        <div class="container">
+            <div class="faq-page__text-box">
+                <div class="faq-page__text-box-shape-1">
+                    <img src="{{ asset('assets/images/shapes/faq-page-text-box-shape-1.png') }}" alt="">
+                </div>
+                <div class="section-title text-left">
+                    <h2 class="section-title__title">
+                        なぜミャンマーなのか？
+                    </h2>
+
+                    <p class="text-black" style="font-size: 19px;">
+                        ミャンマー人は日本との親和性が高い最も好ましい人材と言えます。高い就労意欲を持つことや国民の90%が仏教徒であること、また識字率の高さから教育水準が相対的に高い若年層の人材が多いことから、今後の成長が見込まれる「ラストフロンティア」として注目されています。
+
+                        <br>
+
+                        国民の90%が敬虔な仏教徒であることや高い就労意欲を持つことなど、ミャンマー人は日本人に近い国民性を持っています。また識字率の高さや日本語の上達スピードの速さなど、高い教育水準を持った優秀な若者が多いのですが、良い仕事に就けるチャンスが少なく、日本で働きたいという意欲を強く持っています。
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    @include('components.mm_gallery')
+
 @endsection
