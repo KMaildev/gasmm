@@ -1,10 +1,12 @@
 <footer class="site-footer site-footer-two">
+
     <div class="site-footer__shape-1 float-bob-x">
         <img src="{{ asset('assets/images/shapes/site-footer-two-shape-1.png') }}" alt="">
     </div>
     <div class="site-footer-two__shape-2 img-bounce">
         <img src="{{ asset('assets/images/shapes/site-footer-two-shape-2.png') }}" alt="">
     </div>
+
     <div class="site-footer__top">
         <div class="container">
             <div class="site-footer__top-inner">
@@ -12,14 +14,42 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="footer-widget__column footer-widget__about">
                             <div class="footer-widget__logo">
-                                <a href="index.html"><img
-                                        src="{{ asset('assets/images/resources/footer-logo-2.png') }}"
-                                        alt=""></a>
+                                <a href="{{ route('home') }}">
+                                    <img src="{{ asset('data/company/logo1.png') }}" alt="">
+                                </a>
                             </div>
-                            <p class="footer-widget__about-text">Address 301 Princes Street, Ei class
-                                Mahall Damietta Egypt-104</p>
+                            <p class="footer-widget__about-text" style="text-align: justify;">
+                                Give us a call or drop by anytime, we endeavour to answer all inquiries within 24 hours
+                                on business days. We will be happy to answer your questions.
+                            </p>
                             <div class="footer-widget__emergency-call">
-                                <a href="tel:+134353353545">+1 343 5335 3545</a>
+                                @if (session('key') == 'jp')
+                                    ミャンマー
+                                @elseif (session('key') == 'mm')
+                                    မြန်မာနံပါတ်:
+                                @else
+                                    Myanmar:
+                                @endif
+                                <a href="tel:+95(9)445652455">
+                                    +95(9)445652455
+                                </a>
+
+                                <br>
+
+                                @if (session('key') == 'jp')
+                                    日本：
+                                @elseif (session('key') == 'mm')
+                                    Japan:
+                                @else
+                                    Japan:
+                                @endif
+                                <a href="tel:+819032316684">
+                                    +819032316684
+                                </a>
+
+                                <a href="mailto:info@gas-mm.com">
+                                    info@gas-mm.com
+                                </a>
                             </div>
                             <div class="footer-widget__social">
                                 <a href="#"><span class="icon-facebook"></span></a>
@@ -29,6 +59,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="footer-widget__column footer-widget__navigation">
                             <div class="footer-widget__title-box">
@@ -36,43 +67,108 @@
                             </div>
                             <ul class="footer-widget__navigation-list list-unstyled">
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="index.html">
+                                        @if (session('key') == 'jp')
+                                            ホーム
+                                        @elseif (session('key') == 'mm')
+                                            ပင်မစာမျက်နှာ
+                                        @else
+                                            Home
+                                        @endif
+                                    </a>
                                 </li>
+
                                 <li>
-                                    <a href="about.html">About Us</a>
+                                    <a href="{{ route('about.index') }}">
+                                        @if (session('key') == 'jp')
+                                            会社概要
+                                        @elseif (session('key') == 'mm')
+                                            ကုမ္ပဏီအကြောင်း
+                                        @else
+                                            About Us
+                                        @endif
+                                    </a>
                                 </li>
+
+
+
+
                                 <li>
-                                    <a href="insurance.html">Services</a>
+                                    <a href="{{ route('myanmar.index') }}">
+                                        @if (session('key') == 'jp')
+                                            ミャンマーとは？
+                                        @elseif (session('key') == 'mm')
+                                            ミャンマーとは？
+                                        @else
+                                            What is Myanmar?
+                                        @endif
+                                    </a>
                                 </li>
+
+
                                 <li>
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="{{ route('recruitment_flow.index') }}">
+                                        @if (session('key') == 'jp')
+                                            求人の流れ
+                                        @elseif (session('key') == 'mm')
+                                            Recruitment flow
+                                        @else
+                                            Recruitment flow
+                                        @endif
+                                    </a>
                                 </li>
+
                                 <li>
-                                    <a href="blog.html">Our Blog</a>
+                                    <a href="{{ route('activities.index') }}">
+                                        @if (session('key') == 'jp')
+                                            ギャラリー
+                                        @elseif (session('key') == 'mm')
+                                            ဓာတ်ပုံများ
+                                        @else
+                                            Gallery
+                                        @endif
+                                    </a>
                                 </li>
+
+                                <li>
+                                    <a href="{{ route('contact.index') }}">
+                                        @if (session('key') == 'jp')
+                                            お問い合わせ
+                                        @elseif (session('key') == 'mm')
+                                            ဆက်သွယ်ရန်
+                                        @else
+                                            Contact
+                                        @endif
+                                    </a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="footer-widget__column footer-widget__quick-link">
                             <div class="footer-widget__title-box">
-                                <h3 class="footer-widget__title">Quick Link</h3>
+                                <h3 class="footer-widget__title">
+                                    @if (session('key') == 'jp')
+                                        パートナー
+                                    @elseif (session('key') == 'mm')
+                                        Partners
+                                    @else
+                                        Partners
+                                    @endif
+                                </h3>
                             </div>
                             <ul class="footer-widget__navigation-list list-unstyled">
                                 <li>
-                                    <a href="about.html">Help</a>
+                                    <a href="https://goodspeed-group.co.jp/" target="_blank">
+                                        Good Speed Group
+                                    </a>
                                 </li>
+
                                 <li>
-                                    <a href="contact.html">Support</a>
-                                </li>
-                                <li>
-                                    <a href="testimonial.html">Clients</a>
-                                </li>
-                                <li>
-                                    <a href="products.html">Shop</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio.html">Portfolio</a>
+                                    <a href="https://gsjmbridge-mm.com/" target="_blank">
+                                        GSJM自動車整備研修センター
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -80,18 +176,10 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="footer-widget__column footer-widget__newsletter">
                             <div class="footer-widget__title-box">
-                                <h3 class="footer-widget__title">Newsletter</h3>
+                                <h3 class="footer-widget__title">
+                                    Facebook
+                                </h3>
                             </div>
-                            <p class="footer-widget__newsletter-text">Subscribe our newsletter to get the
-                                <br> latest news & updates
-                            </p>
-                            <form class="footer-widget__newsletter-form">
-                                <div class="footer-widget__newsletter-input-box">
-                                    <input type="email" placeholder="email@example.com" name="email">
-                                    <button type="submit" class="footer-widget__newsletter-btn"><i
-                                            class="icon-send"></i></button>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -101,9 +189,9 @@
     <div class="site-footer__bottom">
         <div class="container">
             <div class="site-footer__bottom-inner">
-                <p class="site-footer__bottom-text">Copyright © 2024 Sonchoy by <a href="#">thememx.</a>
-                    All
-                    Rights Reserved</p>
+                <p class="site-footer__bottom-text">
+                    Copyright © 2024 ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED). All Rights Reserved
+                </p>
             </div>
         </div>
     </div>

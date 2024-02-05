@@ -461,6 +461,452 @@
 
 
 
+    <section class="services-two">
+        <div class="services-two__shape-3">
+            <img src="assets/images/shapes/services-two-shape-3.png" alt="">
+        </div>
 
+        <div class="services-two__shape-4">
+            <img src="assets/images/shapes/services-two-shape-4.png" alt="">
+        </div>
+
+        <div class="services-two__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="section-title text-center py-5" style="padding-top: 50px;">
+                            <div class="section-title__tagline-box">
+                                <p class="section-title__tagline">
+                                    ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)
+                                </p>
+                            </div>
+                            <h2 class="section-title__title" style="font-size: 30px;">
+                                ミャンマー連邦共和国政府承認したG A S
+                                <br>
+                                <span class="color3" style="font-size: 25px; color: blue;">
+                                    Approved by Ministry of Labour
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="security-card" style=" text-align:center;">
+                            <img src="{{ asset('data/1.jpg') }}" alt="About Images"
+                                style="width:300px; height:400px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                        </div>
+                        <div class="py-2">
+                            <p style="font-size: 20px; color: black;">
+                                会社登記簿謄本
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="security-card" style=" text-align:center;">
+                            <img src="{{ asset('data/2.jpg') }}" alt="About Images"
+                                style="width:300px; height:400px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                        </div>
+                        <div class="py-2">
+                            <p style="font-size: 20px; color: black;">
+                                ミャンマー連邦共和国政府承認海外人材送り出し機関
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-two__bottom py-5">
+            <div class="container">
+                <div class="services-two__bottom-inner">
+                    <div class="services-two__bottom-img">
+                        <img style="width: 300px;" src="{{ asset('data/contact-us.webp') }}" alt="">
+                    </div>
+                    <h3 class="services-two__bottom-title">
+                        If you have any queries <br> our team is ready to
+                        response <br> all your queries.
+                    </h3>
+                    <div class="services-two__bottom-btn-box">
+                        <a href="{{ route('contact.index') }}" class="services-two__bottom-btn thm-btn">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="team-one">
+        <div class="container">
+            <div class="section-title text-center">
+                <div class="section-title__tagline-box">
+                    <p class="section-title__tagline">
+                        ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)
+                    </p>
+                </div>
+                <h2 class="section-title__title">
+                    G A Sの実績
+                </h2>
+            </div>
+            <div class="row">
+
+                <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay="100ms">
+                    <h4>
+                        2022年10月20日～2023年11月30日までの
+                    </h4>
+
+                    <br>
+
+                    <table style="width: 100%;">
+                        <tbody>
+                            <tr>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    送り出し人数
+                                </td>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    取引協同組合数
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    179名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    13組合
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <br>
+
+                    <table style="width: 100%;">
+                        <tbody>
+                            <tr>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    技能実習生
+                                </td>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    特定技能
+                                </td>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    義人国
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    120名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    55名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    4名
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <br>
+
+                    <table style="width: 100%;">
+                        <tbody>
+                            <tr>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    九州地方
+                                </td>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    関西地方
+                                </td>
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    中国地方
+                                </td>
+
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    中部地方
+                                </td>
+
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    北海道地方
+                                </td>
+
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    四国地方
+                                </td>
+
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    関東地方
+                                </td>
+
+                                <td style="background: #002060; color: white; text-align: center;">
+                                    東北地方
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    5名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    30名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    2名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    140名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    0名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    0名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    0名
+                                </td>
+
+                                <td style="background: #CFD5E9; color: black; text-align: center;">
+                                    0名
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay="100ms">
+                    <h4 style="text-align: right">
+                        職種別採用者グラフ
+                    </h4>
+
+                    <br>
+
+                    <img src="{{ asset('data/4.png') }}" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="services-two" style="background: white; padding: 50px 0 50px;">
+
+        <div class="get-quote__shape-9 float-bob-y">
+            <img src="{{ asset('assets/images/shapes/get-quote-shape-14.png') }}" alt="">
+        </div>
+
+        <div class="services-two__top">
+            <div class="container">
+                <div class="section-title text-center">
+                    <div class="section-title__tagline-box">
+                        <p class="section-title__tagline">
+                            ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)
+                        </p>
+                    </div>
+                    <h2 class="section-title__title">
+                        G A Sの募集方法
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <center>
+                            <img src="{{ asset('data/header.png') }}" alt="">
+                        </center>
+                    </div>
+
+                    <div class="col-md-6 py-5">
+                        <div class="blog-details__left">
+                            <div class="comment-one">
+                                <div class="comment-one__single">
+                                    <div class="comment-">
+                                        <img src="{{ asset('data/11.jpg') }}" alt="" style="width: 200px;">
+                                    </div>
+                                    <div class="comment-one__content">
+                                        <p style="font-size: 13px;">
+                                            ブローカー紹介は受けません。
+                                            無条件で応募者を受付はしません。
+                                            何重にもスクリーニングを行い、きちんと書類を確認した若者のみ受け付けています。
+                                            その後仕事の説明会をし、一次選考を行います。
+                                        </p>
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 py-5">
+                        <div class="blog-details__left">
+                            <div class="comment-one">
+                                <div class="comment-one__single">
+                                    <div class="comment-one__content">
+                                        <p style="font-size: 13px;">
+                                            事前選考会には以下の基準でテストを行います。
+                                            <br>
+                                            ◎日本語能力テスト <br>
+                                            ◎体調チェック <br>
+                                            ◎メンタルテスト <br>
+                                            ◎足し算テスト <br>
+                                            ◎性格チェック
+                                        </p>
+                                    </div>
+
+                                    <div class="comment-">
+                                        <img src="{{ asset('data/12.jpg') }}" alt="" style="width: 200px;">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <center>
+                        <div class="col-md-9">
+                            <p style="font-size: 20px; color: black;">
+                                ＊ ジーエーエスは技能実習生の場合、日本語能力N4レベル卒業者のみを紹介しております。
+                                <br>
+                                ＊特定技能の場合、各資格を持ってない応募者を企業様に紹介しません。
+                            </p>
+                        </div>
+                    </center>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="why-choose-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="why-choose-one__left">
+                        <div class="why-choose-one__img-box">
+                            <div class="why-choose-one__img">
+                                <img src="{{ asset('data/building.jpg') }}" alt="">
+                            </div>
+
+                            <div class="why-choose-one__img-2">
+                                <img src="{{ asset('data/8.jpg') }}" alt="" style="width: 400px;">
+                            </div>
+
+                            <div class="why-choose-one__img-3">
+                                <img src="{{ asset('data/md3.jpg') }}" alt="" style="width: 300px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-6">
+                    <div class="why-choose-one__right">
+                        <div class="section-title text-left">
+                            <div class="section-title__tagline-box">
+                                <p class="section-title__tagline">
+                                    G A Sから設立したHEIWA日本語教育センター紹介
+                                </p>
+                            </div>
+                            <br><br>
+                            <p style="color: black; font-size: 19px;">
+                                校長 <br>
+                                WAI LIN MAUNG <br>
+                                ウェイ　リン　マウン <br>
+                                在日歴
+                            </p>
+
+                            <ul class="team-details__top-points list-unstyled">
+                                <li>
+                                    <span>
+                                        ◎2009年3月　～　現在（永住者として在日）
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <span>◎2009年3月～2014年9月（留学生）</span>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        ◎2014年10月～2019年6月（正社員・自動車関係）
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        ◎2019年7月～2020年9月（正社員・建設関系）
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        ◎2020年10月～2021年11月（組合員・技能実習生管理責任者）
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <span>
+                                        ◎2021年12月～現在（送り出し機関の事業を開始）
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <p style="color: black; font-size: 19px;">
+                                HEIWA日本語教育センターは2021年11月に開校し、現在生徒450人が日本語の教育を受けています。並行して日本語だけではなく、日本の生活・文化・5Sなどもトレーニングをしています。
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="services-two" style="background: white; padding: 50px 0 50px;">
+        <div class="get-quote__shape-9 float-bob-y">
+            <img src="{{ asset('assets/images/shapes/get-quote-shape-14.png') }}" alt="">
+        </div>
+
+        <div class="section-title text-center">
+            <div class="section-title__tagline-box">
+                <p class="section-title__tagline">
+                    ミャンマー側の入国までの流れ
+                </p>
+            </div>
+            <h2 class="section-title__title">
+                入国準備期間
+            </h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <center>
+                    <div class="col-md-8">
+                        <img src="{{ asset('data/map1.png') }}" alt="" style="width: 100%;">
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
     <br><br><br>
 @endsection
