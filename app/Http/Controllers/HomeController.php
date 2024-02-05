@@ -5,12 +5,18 @@ namespace App\Http\Controllers;
 use App\Models\Activitie;
 use App\Models\News;
 use App\Models\Video;
+use App\Models\Visitor;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index()
     {
+
+        $visitor = new Visitor();
+        $visitor->view = 1;
+        $visitor->save();
+
 
         $imageDirectory = public_path('data/gallery/');
         $galleries = [];

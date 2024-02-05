@@ -171,6 +171,28 @@
                                     </a>
                                 </li>
                             </ul>
+
+                            <br><br>
+                            <div class="footer-widget__title-box">
+                                <h3 class="footer-widget__title">
+                                    @if (session('key') == 'jp')
+                                        Site visitor
+                                    @elseif (session('key') == 'mm')
+                                        Site visitor
+                                    @else
+                                        Site visitor
+                                    @endif
+                                </h3>
+                            </div>
+
+                            <p style="color: white">
+                                Total Visitors: {{ number_format($totalCount) }} <br>
+                                Today: {{ number_format($todayCount) }} <br>
+                                This Week: {{ number_format($ThisWeek) }} <br>
+                                This Month: {{ number_format($currentMonthCount) }}<br>
+                                This Year: {{ number_format($currentYearCount) }} <br>
+                            </p>
+
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
