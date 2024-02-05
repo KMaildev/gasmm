@@ -75,7 +75,7 @@
                         <ul class="main-menu__list">
 
                             <li>
-                                <a href="index.html">
+                                <a href="{{ route('home') }}">
                                     @if (session('key') == 'jp')
                                         ホーム
                                     @elseif (session('key') == 'mm')

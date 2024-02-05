@@ -1,4 +1,4 @@
-<footer class="site-footer site-footer-two">
+<footer class="site-footer site-footer-two" style="margin-top: 5px;">
 
     <div class="site-footer__shape-1 float-bob-x">
         <img src="{{ asset('assets/images/shapes/site-footer-two-shape-1.png') }}" alt="">
@@ -7,7 +7,7 @@
         <img src="{{ asset('assets/images/shapes/site-footer-two-shape-2.png') }}" alt="">
     </div>
 
-    <div class="site-footer__top">
+    <div class="site-footer__top" style="padding-top: 20px;">
         <div class="container">
             <div class="site-footer__top-inner">
                 <div class="row">

@@ -46,14 +46,11 @@
 
 
     <section class="blog-page">
-
         <div class="pricing-one__shape-2 float-bob" style="width: 100%;">
             <img src="{{ asset('data/departure.png') }}" alt="" style="width: 100px;">
-
             {{-- <marquee behavior="scroll" direction="right">
                 <img src="{{ asset('data/departure.png') }}" alt="" style="width: 50px;">
             </marquee> --}}
-
         </div>
 
 

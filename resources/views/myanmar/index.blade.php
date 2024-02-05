@@ -247,5 +247,4 @@
 
 
     @include('components.mm_gallery')
-
 @endsection

@@ -13,34 +13,44 @@
             <div class="main-slider-two__shape-4"></div>
             <div class="main-slider-two__shape-5"></div>
             <div class="main-slider-two__shape-6"></div>
-            <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/slider-2-1.jpg);">
-            </div><!-- /.slider-one__bg -->
+            <div class="main-slider-two__bg" style="background-image: url({{ asset('data/20.jpg') }});">
+            </div>
+            <!-- /.slider-one__bg -->
             <div class="container">
                 <div class="main-slider-two__content">
                     <div class="main-slider-two__content-top">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
-                                <p class="section-title__tagline">WE ARE INSURANCE AGENCY</p>
+                                <p class="section-title__tagline">
+                                    Overseas Employment Agency
+                                </p>
                             </div>
-                            <h2 class="section-title__title">Digital
-                                <br> Insurance
-                                <br> Solution
+                            <h2 class="section-title__title" style="font-size: 39px;">
+                                ジーエーエス　カンパニーリミテッド
                             </h2>
                         </div>
                     </div>
                     <div class="main-slider-two__btn-and-call">
-                        <a href="about.html" class="main-slider-two__btn thm-btn">Discover More</a>
+                        <a href="{{ route('about.index') }}" class="main-slider-two__btn thm-btn">
+                            @if (session('key') == 'jp')
+                                会社概要
+                            @elseif (session('key') == 'mm')
+                                ကုမ္ပဏီအကြောင်း
+                            @else
+                                About Us
+                            @endif
+                        </a>
                         <div class="main-slider-two__call">
                             <div class="icon">
                                 <span class="icon-phone-1"></span>
                             </div>
-                            <a href="tel:+19993452577">+1 (999) 345 2577</a>
+                            <a href="tel:+95(9)445652455">+95(9)445652455</a>
                         </div>
                     </div>
                     <div class="main-slider-two__video-link">
-                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                        <a href="tel:+95(9)445652455">
                             <div class="main-slider-two__video-icon">
-                                <span class="icon-play-2"></span>
+                                <span class="fa fa-phone"></span>
                                 <i class="ripple"></i>
                             </div>
                         </a>
@@ -52,6 +62,9 @@
                 </div>
             </div>
         </div>
+
+
+
 
         <div class="item main-slider-two__slide-2">
             <div class="main-slider-two__shape-1 float-bob-y">
@@ -64,34 +77,44 @@
             <div class="main-slider-two__shape-4"></div>
             <div class="main-slider-two__shape-5"></div>
             <div class="main-slider-two__shape-6"></div>
-            <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/slider-2-2.jpg);">
+            <div class="main-slider-two__bg" style="background-image: url({{ asset('data/39.jpg') }});">
             </div><!-- /.slider-one__bg -->
             <div class="container">
                 <div class="main-slider-two__content">
                     <div class="main-slider-two__content-top">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
-                                <p class="section-title__tagline">WE ARE INSURANCE AGENCY</p>
+                                <p class="section-title__tagline">
+                                    Overseas Employment Agency
+                                </p>
                             </div>
-                            <h2 class="section-title__title">Digital
-                                <br> Insurance
-                                <br> Solution
+                            <h2 class="section-title__title" style="font-size: 39px;">
+                                ジーエーエス　カンパニーリミテッド
                             </h2>
                         </div>
                     </div>
                     <div class="main-slider-two__btn-and-call">
-                        <a href="about.html" class="main-slider-two__btn thm-btn">Discover More</a>
+                        <a href="{{ route('contact.index') }}" class="main-slider-two__btn thm-btn">
+                            @if (session('key') == 'jp')
+                                お問い合わせ
+                            @elseif (session('key') == 'mm')
+                                ဆက်သွယ်ရန်
+                            @else
+                                Contact
+                            @endif
+                        </a>
                         <div class="main-slider-two__call">
                             <div class="icon">
                                 <span class="icon-phone-1"></span>
                             </div>
-                            <a href="tel:+19993452577">+1 (999) 345 2577</a>
+                            <a href="tel:+95(9)445652455">+95(9)445652455</a>
                         </div>
                     </div>
+
                     <div class="main-slider-two__video-link">
-                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                        <a href="tel:+95(9)445652455">
                             <div class="main-slider-two__video-icon">
-                                <span class="icon-play-2"></span>
+                                <span class="fa fa-phone"></span>
                                 <i class="ripple"></i>
                             </div>
                         </a>
@@ -100,9 +123,12 @@
                                 alt="">
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
+
+
 
         <div class="item main-slider-two__slide-1">
             <div class="main-slider-two__shape-1 float-bob-y">
@@ -115,34 +141,44 @@
             <div class="main-slider-two__shape-4"></div>
             <div class="main-slider-two__shape-5"></div>
             <div class="main-slider-two__shape-6"></div>
-            <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/slider-2-3.jpg);">
+            <div class="main-slider-two__bg" style="background-image: url({{ asset('data/30.jpg') }});">
             </div><!-- /.slider-one__bg -->
             <div class="container">
                 <div class="main-slider-two__content">
                     <div class="main-slider-two__content-top">
                         <div class="section-title text-left">
                             <div class="section-title__tagline-box">
-                                <p class="section-title__tagline">WE ARE INSURANCE AGENCY</p>
+                                <p class="section-title__tagline">
+                                    Overseas Employment Agency
+                                </p>
                             </div>
-                            <h2 class="section-title__title">Digital
-                                <br> Insurance
-                                <br> Solution
+                            <h2 class="section-title__title" style="font-size: 39px;">
+                                ジーエーエス　カンパニーリミテッド
                             </h2>
                         </div>
                     </div>
                     <div class="main-slider-two__btn-and-call">
-                        <a href="about.html" class="main-slider-two__btn thm-btn">Discover More</a>
+                        <a href="{{ route('contact.index') }}" class="main-slider-two__btn thm-btn">
+                            @if (session('key') == 'jp')
+                                お問い合わせ
+                            @elseif (session('key') == 'mm')
+                                ဆက်သွယ်ရန်
+                            @else
+                                Contact
+                            @endif
+                        </a>
                         <div class="main-slider-two__call">
                             <div class="icon">
                                 <span class="icon-phone-1"></span>
                             </div>
-                            <a href="tel:+19993452577">+1 (999) 345 2577</a>
+                            <a href="tel:+95(9)445652455">+95(9)445652455</a>
                         </div>
                     </div>
+
                     <div class="main-slider-two__video-link">
-                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                        <a href="tel:+95(9)445652455">
                             <div class="main-slider-two__video-icon">
-                                <span class="icon-play-2"></span>
+                                <span class="fa fa-phone"></span>
                                 <i class="ripple"></i>
                             </div>
                         </a>
@@ -151,6 +187,7 @@
                                 alt="">
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
