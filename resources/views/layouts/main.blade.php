@@ -7,6 +7,17 @@
     <title>
         ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED) - @yield('title')
     </title>
+
+    <meta name="description"
+        content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED), Agency, Japan, Japan Agency, Myanmar Agency">
+    <meta name="keywords"
+        content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED), Agency, Japan, Japan Agency, Myanmar Agency" />
+    <meta property="og:title" content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)" />
+    <meta property="og:image" content="{{ asset('data/company/logo.png') }}" />
+    <meta property="og:url" content="https://gas-mm.com/" />
+    <meta property="og:site_name" content="ジーエーエス　カンパニーリミテッド (G A S COMPANY LIMITED)" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('data/company/logo1.png') }}" />
+
     <meta name="google" content="notranslate">
 
 
@@ -54,7 +65,6 @@
 
         @include('layouts.footer')
 
-
     </div>
 
 
@@ -64,10 +74,6 @@
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img
-                        src="{{ asset('assets/images/resources/logo-2.png') }}" width="150" alt="" /></a>
-            </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
             <!-- /.mobile-nav__container -->
@@ -75,11 +81,31 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@sonchoy.com</a>
+                    <a href="mailto:info@gas-mm.com">
+                        info@gas-mm.com
+                    </a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    @if (session('key') == 'jp')
+                        ミャンマー
+                    @elseif (session('key') == 'mm')
+                        မြန်မာနံပါတ်:
+                    @else
+                        Myanmar:
+                    @endif
+                    +95(9)445652455
+
+                    <br>
+
+                    @if (session('key') == 'jp')
+                        日本：
+                    @elseif (session('key') == 'mm')
+                        Japan:
+                    @else
+                        Japan:
+                    @endif
+                    +819032316684
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">

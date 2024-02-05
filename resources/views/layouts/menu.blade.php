@@ -57,6 +57,11 @@
         </div>
     </div>
 
+    <style>
+        .main-menu-two__logo::before {
+            background-color: white;
+        }
+    </style>
     <nav class="main-menu main-menu-two">
         <div class="main-menu-two__wrapper">
             <div class="main-menu-two__wrapper-inner">
@@ -64,7 +69,7 @@
 
                     <div class="main-menu-two__logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('data/company/logo.png') }}" alt="">
+                            <img src="{{ asset('data/company/logo.png') }}" alt="" style="width: 200px;">
                         </a>
                     </div>
 
@@ -86,7 +91,6 @@
                                     <span class="main-menu-border"></span>
                                 </a>
                             </li>
-
 
                             <li>
                                 <a href="{{ route('about.index') }}">

@@ -2,7 +2,58 @@
 @section('content')
     @include('layouts.slider')
 
-    <section class="feature-one">
+
+    <section class="need-help">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3">
+                    <div class="need-help__left">
+                        <div class="need-help__experience">
+                            <div class="need-help__experience-shape-1">
+                                <img src="{{ asset('assets/images/shapes/need-help-experience-shape-1.png') }}"
+                                    alt="">
+                            </div>
+                            <div class="need-help__count count-box">
+                                <h3 class="count-text" data-stop="8" data-speed="1500">00</h3>
+                            </div>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9">
+                    <div class="need-help__right">
+                        <div class="need-help__insurance">
+                            <div class="need-help__insurance-shape-1"></div>
+                            <div class="need-help__insurance-shape-2"></div>
+                            <div class="need-help__insurance-shape-3"></div>
+                            <div class="need-help__insurance-shape-4">
+                                <img src="{{asset('assets/images/shapes/need-help-insurance-shape-4.png')}}" alt="">
+                            </div>
+                            <div class="need-help__insurance-title-box">
+                                <p style="font-size: 16px;">
+                                    ミャンマー連邦共和国政府認定送り出し機関
+                                </p>
+                                <h4 style="font-size: 19px;">
+                                    ライセンス許可番号：200/2023
+                                </h4>
+                            </div>
+                            <div class="need-help__insurance-contact">
+                                <p>技能実習生機構認定番号</p>
+                                <a href="javascript::void(0)">
+                                    MMR000381
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="feature-one" style="padding-top: 5px;">
         <div class="container">
             <div class="row">
 
